@@ -1,0 +1,68 @@
+{
+  "threads": [
+    {
+      "ThreadId": 1,
+      "ThreadTime": 203,
+      "MethodInfo": [
+        {
+          "MethodName": "MyMethod",
+          "ClassName": "Foo",
+          "Time": 102.0,
+          "ChildMethods": [
+            {
+              "MethodName": "InnerMethod",
+              "ClassName": "Bar",
+              "Time": 102.0,
+              "ChildMethods": null
+            }
+          ]
+        },
+        {
+          "MethodName": "MyMethod",
+          "ClassName": "Foo",
+          "Time": 101.0,
+          "ChildMethods": [
+            {
+              "MethodName": "InnerMethod",
+              "ClassName": "Bar",
+              "Time": 101.0,
+              "ChildMethods": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ThreadId": 3,
+      "ThreadTime": 100,
+      "MethodInfo": [
+        {
+          "MethodName": "Method",
+          "ClassName": "MainApp",
+          "Time": 100.0,
+          "ChildMethods": null
+        }
+      ]
+    }
+  ]
+}: 107.0,
+              "ChildMethods": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ThreadId": 3,
+      "ThreadTime": 105,
+      "MethodInfo": [
+        {
+          "MethodName": "Method",
+          "ClassName": "MainApp",
+          "Time": 105.0,
+          "ChildMethods": null
+        }
+      ]
+    }
+  ]
+}

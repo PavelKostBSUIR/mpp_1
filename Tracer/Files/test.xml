@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfThread xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <thread id="1" time="203">
+    <methods name="MyMethod" class="Foo" time="102">
+      <methods name="InnerMethod" class="Bar" time="102" />
+    </methods>
+    <methods name="MyMethod" class="Foo" time="101">
+      <methods name="InnerMethod" class="Bar" time="101" />
+    </methods>
+  </thread>
+  <thread id="3" time="100">
+    <methods name="Method" class="MainApp" time="100" />
+  </thread>
+</ArrayOfThread>ad>
+  <thread id="3" time="105">
+    <methods name="Method" class="MainApp" time="105" />
+  </thread>
+</ArrayOfThread>
